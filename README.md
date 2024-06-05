@@ -20,3 +20,9 @@ Implementar la funcionalidad para trabajar con gramáticas aumentadas, lo que pe
 Análisis Sintáctico Ascendente
 
 Añadir soporte para realizar análisis sintáctico ascendente, como el algoritmo LR(1), para proporcionar una herramienta más completa que cubra diferentes enfoques de análisis sintáctico.
+
+
+Realizado por:
+Nathalia de la Rans
+Miguel Garcia
+Juan Pineda
