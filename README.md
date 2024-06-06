@@ -25,20 +25,62 @@ Sintaxify ayuda a preparar a los estudiantes para roles técnicos avanzados, ya 
 Como una aplicación web, Sintaxify es accesible desde cualquier lugar, facilitando la colaboración entre estudiantes y profesionales. Su naturaleza abierta fomenta el aprendizaje compartido y el intercambio de conocimientos.
 ## Pasos para Ejecutarla
 
-1. **Clonar el Repositorio**
+1. Clonar el Repositorio de GitHub:
 
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
+* Abre tu terminal.
+* Clona el repositorio usando el siguiente comando:
+git clone https://github.com/estebanramirez13/Sintaxify.git
+
+* Navega al directorio del repositorio clonado:
+cd Sintaxify
+
+2. Abrir el Programa:
+
+* Abre el archivo HTML principal en tu navegador, se encuentra en la carpeta principal 
+* Por ejemplo:
+open index.html
+* Alternativas si estás en un entorno Linux:
+xdg-open index.html
+
+3. Ingresar el Contenido a Modificar:
+
+* En la interfaz de la página web, localiza el campo de entrada para ingresar las producciones gramaticales.
+
+* Ingresa las producciones en el formato adecuado, por ejemplo:
+E -> E+T | T
+T -> T*F | F
+F -> (E) | id
+
+4. Ver el Resultado:
+
+* Presiona el botón "Transformar Gramática" para procesar las producciones gramaticales.
+* Observa el resultado mostrado en la página, que puede incluir las producciones transformadas, el cálculo de los conjuntos FIRST y FOLLOW, etc.
+
+5. Ingresar el Contenido Modificado:
+
+* Si el programa te proporciona contenido modificado o producciones transformadas, cópialo de la sección de resultados.
+
+* Ingresa este contenido modificado en el campo de entrada nuevamente para realizar más transformaciones o cálculos adicionales
+
+6. Ver los Resultados en Formato de Tabla:
+
+* Presiona el botón correspondiente para visualizar los resultados en formato de tabla. Este botón puede llamarse "Ver en Tabla" o algo similar.
+
+* Revisa los resultados mostrados en formato de tabla en la página.
 
 
 Funcionalidades Futuras
-Soporte para Gramáticas Aumentadas
+Soporte para Gramáticas Aumentadas:
 
 Implementar la funcionalidad para trabajar con gramáticas aumentadas, lo que permitirá una mayor flexibilidad y potencia en el análisis sintáctico.
 
-Análisis Sintáctico Descendente
+Análisis Sintáctico Descendente:
 
-Añadir soporte para realizar análisis sintáctico descendente, como el algoritmo LR(1), para proporcionar una herramienta más completa que cubra diferentes enfoques de análisis sintáctico.
+Mejorar el soporte existente para el análisis sintáctico descendente LL(1), incorporando más ejemplos interactivos y casos de estudio para un aprendizaje más profundo y aplicado.
+
+Visualización de Árboles de Derivación:
+
+Añadir una funcionalidad para generar y visualizar árboles de derivación a partir de las gramáticas y cadenas de entrada proporcionadas, facilitando una comprensión más visual y detallada del proceso de análisis.
 
 
 Realizado por:
