@@ -36,7 +36,7 @@ Soporte para Gramáticas Aumentadas
 
 Implementar la funcionalidad para trabajar con gramáticas aumentadas, lo que permitirá una mayor flexibilidad y potencia en el análisis sintáctico.
 
-Análisis Sintáctico Ascendente
+Análisis Sintáctico Descendente
 
 Añadir soporte para realizar análisis sintáctico descendente, como el algoritmo LR(1), para proporcionar una herramienta más completa que cubra diferentes enfoques de análisis sintáctico.
 
