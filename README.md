@@ -45,3 +45,4 @@ Realizado por:
 Nathalia de la Rans
 Miguel Garcia
 Juan Pineda
+Esteban Ramírez
