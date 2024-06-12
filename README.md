@@ -3,6 +3,7 @@
 ## Resumen y Justificación
 
 **Sintaxify** es una aplicación web diseñada para simplificar el análisis sintáctico de gramáticas formales, una tarea fundamental en el estudio de lenguajes formales y compiladores. La herramienta permite a los usuarios ingresar gramáticas, realizar la derivación más a la izquierda, calcular los conjuntos de primeros y siguientes, y construir la tabla M. Con esta información, Sintaxify facilita un análisis sintáctico descendente paso a paso para reconocer cadenas de entrada, proporcionando una plataforma interactiva y práctica para estudiantes y profesionales. Este proyecto es especialmente útil para egresados y estudiantes de ciencias de la computación, ya que les permite profundizar su comprensión y práctica en estos conceptos clave.
+Actualmente Sintaxify solo realiza recursividad para las producciones de tipo E->E, por lo que se espera que se realice un seguimiento a futuro para que se apliquen todas las recursividades 
 Justificaciones:
 1.Facilitación del Aprendizaje:
 
@@ -50,7 +51,7 @@ xdg-open index.html
 E -> E+T | T
 T -> T*F | F
 F -> (E) | id
-
+Nota: Hay que tener en cuenta que la calculadora unicamnete realiza derivaciones cuando la recursividad es de tipo E->E
 4. Ver el Resultado:
 
 * Presiona el botón "Transformar Gramática" para procesar las producciones gramaticales.
